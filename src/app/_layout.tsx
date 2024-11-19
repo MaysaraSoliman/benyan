@@ -1,3 +1,4 @@
+import MainFooter from "@/components/MainFooter/MainFooter";
 import MainHeader from "@/components/MainHeader/MainHeader";
 import { Layout } from "antd";
 import { Content, Footer, Header } from "antd/es/layout/layout";
@@ -13,7 +14,9 @@ const MainLayout = ({
         <MainHeader />
       </Header>
       <Content>{children}</Content>
-      <Footer></Footer>
+      <Footer>
+        <MainFooter />
+      </Footer>
     </Layout>
   );
 };

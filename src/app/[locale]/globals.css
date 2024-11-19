@@ -106,6 +106,8 @@ a {
   }
 } */
 
+
+
 :root {
   --color-primary: #000;
   --color-secondary: #fff;
@@ -130,6 +132,8 @@ a {
   scroll-behavior: smooth;
   list-style: none;
 }
+
+
 
 .container {
   max-width: 1200px;
@@ -160,6 +164,10 @@ a {
 
 .ant-layout-footer {
   background-color: var(--color-primary) !important;
+}
+
+.ant-drawer {
+  z-index: 99999;
 }
 
 .ant-typography {
